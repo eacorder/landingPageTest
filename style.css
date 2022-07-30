@@ -11,6 +11,9 @@ body {
     justify-content: space-between;
     align-items: center;   
     color: #a3a3a3;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
 }
 
 .logo {
@@ -62,9 +65,88 @@ ul {
     display: flex;
     list-style-type: none;
     gap: 30px;
-    font-size: 24px;
+    font-size: 22px;
 }
 
 .header, .footer,  .secondSection, .thirdSection, .fourthSection {
     padding: 0 300px;
+}
+ 
+
+.secondSectionCards {
+    display: flex;
+    gap: 60px;
+}
+
+ .secondSectionTitle{
+    font-size: 40px;
+    font-weight: bolder;
+    color: #1f2937;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+ }
+
+.secondSectionContent {
+    padding: 80px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+     
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 15px; 
+    width: 200px;
+    align-items: center;
+    align-content: space-between;
+    color: #837d7d; 
+}
+
+.cardText {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bolder; 
+     
+}
+
+.cardImage {
+    border-style: solid;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    border-color: #3882F6;
+}
+
+.thirdSection {
+    background-color: #E5E7EB;
+    
+}
+
+.thirdSectionContent{ 
+    padding: 150px; 
+    display: flex;
+    flex-direction: column;  
+    flex-wrap: wrap; 
+}
+
+.thirdSectionQuote{
+    font-size: 45px;
+    color: #837d7d;
+    font-style: italic;
+    font-weight: lighter;
+    padding: 0 50px;
+    margin: 0;
+}
+.thirdSectionAuthor {
+   text-align: end;
+   padding-right: 75px;
+   font-size: 25px;
+   font-weight: bolder;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }

@@ -1,0 +1,70 @@
+body {
+    margin: 0; 
+} 
+.header { 
+    background-color: #1f2937;
+
+}
+.menu {
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+    color: #a3a3a3;
+}
+
+.logo {
+    font-size: 35px;
+    color: #F9FAF8;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.headerTitle {
+    font-size: 65px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.headerText {
+    color: #a3a3a3;
+    font-size: 25px;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.firstSection {
+    display: flex;
+    padding: 150px 0;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.firstSection button {
+    background-color: #3882F6;
+    color: white;
+    border-radius: 6px;
+    padding: 8px;
+    border: none;
+    margin-top: 10px;
+    width: 140px;
+    height: 45px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.leftFirstSection {
+    width: 600px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+    font-size: 24px;
+}
+
+.header, .footer,  .secondSection, .thirdSection, .fourthSection {
+    padding: 0 300px;
+}

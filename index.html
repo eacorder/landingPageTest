@@ -4,28 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link type="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
     <title>Landing Page</title>
 </head>
-<body>
+<body> 
     <div class="header">
-        <spam>Header Logo</spam>
-        <ul>
-            <li>Header link one</li>
-            <li>Header link two</li>
-            <li>Header link three</li>
-        </ul>
-    </div>
-    <div class="firsstSection">
-        <div class="leftFirstSection">
-            <spam>This website is awesome</spam>
-            <p>this website has some subtext that goes here under the main title. it's smaller font and the color is lower contrast</p>
-            <button>Sign up</button>
+        <div class="menu">
+            <spam class="logo">Header Logo</spam>
+            <ul>
+                <li>header link one</li>
+                <li>header link two</li>
+                <li>header link three</li>
+            </ul>
         </div>
-        <div class="rightFirstSection">
-            <img width="350" src="images/firstSection.jpg" />
+       
+        <div class="firstSection">
+            <div class="leftFirstSection">
+                <spam class="headerTitle">This website is awesome</spam>
+                <p class="headerText">This website has some subtext that goes here under the main title. It's smaller font and the color is lower contrast</p>
+                <button>Sign up</button>
+            </div>
+            <div class="rightFirstSection">
+                <img width="650" height="300" src="images/firstSection.jpg" />
+            </div>
         </div>
     </div>
+    
     <div class="secondSection">
         <span>Some random information.</span>
         <div class="card">
@@ -53,11 +57,11 @@
         <div class="signUp">
             <span>Call to action! It's time!</span>
             <span>Sign up for our product by clicking that button right over there!</span>
-            <button>Sign up</button>
+            <button >Sign up</button>
         </div>
     </div>
-    <footer>
+    <div class="footer">
         <span>Copyright &copy; Edison Cordero 2022 </span>
-    </footer>
+    </div>
 </body>
 </html>

@@ -44,7 +44,18 @@ body {
     flex-wrap: wrap;
 }
 
+.rightFirstSection{
+    display: flex;
+    flex:1;
+    justify-content: end;
+}
+
+.rightFirstSectionImage {
+    width: 50vh;
+}
+
 .firstSection button {
+    
     background-color: #3882F6;
     color: white;
     border-radius: 6px;
@@ -58,7 +69,7 @@ body {
 }
 
 .leftFirstSection {
-    width: 600px;
+    flex:1; 
 }
 
 ul {
